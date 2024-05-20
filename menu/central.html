@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sentralMenu</title>
     <script src="../js/common-js/toggle-menu.js"></script>
+    <script src="../js/lunch.js"></script>
     <link href="../css/common-css/common.css" rel="stylesheet" />
     <link href="../css/lunch.css" rel="stylesheet" />
 </head>
@@ -29,11 +30,34 @@
     </header>
 
     <main>
-      <div class = "shop">
-        <p class="shop-title">Lunch</p>
+      <div class = "lunch">
+        <p class="lunch-title">Lunch</p>
       </div>
-        <h2>セントラル</h2>
-        <a href="../lunch.html">戻る</a><br>
+
+      <div class = shop-label>
+        <div class="shop-title">セントラル</div>
+        <form name="totalForm">
+          <div class="total-label">合計：<input type="text" name="total"></div>
+        </form>
+      </div>
+      <div class = "shop-menu">
+        <form name="menuForm">
+          <input type="checkbox" value="500" onClick="money_total()">
+          テスト１ （500円）
+          <input type="checkbox" value="600" onClick="money_total()">
+          テスト２ （600円）
+          <input type="checkbox" value="700" onClick="money_total()">
+          テスト３ （700円）
+          <input type="checkbox" value="800" onClick="money_total()">
+          テスト４ （800円）
+          <input type="checkbox" value="900" onClick="money_total()">
+          テスト５ （900円）
+        </form>
+      </div>
+
+      <div class="return">
+      <a href="../lunch.html">戻る</a><br>
+      </div>
     </main>
 
     <footer class="footer">
