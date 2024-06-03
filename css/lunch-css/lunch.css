@@ -1,0 +1,125 @@
+.lunch {
+    color: #ffffff;
+    background-color: #24211b;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lunch-title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .shop-label{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    margin-right: 10px;
+  }
+  .total-label{
+    margin-left:700px;
+  }
+
+  .shop-title{
+    padding-left: 60px;
+    width:400px;
+  }
+
+  .title-label{
+    padding-left: 60px;
+  }
+
+  .shop-menu{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .shop-list {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .wrap {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #000;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+.menu-type {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1,125rem;
+    padding: 40px 0;
+}
+.menu dl {
+    display: table;
+    width: 100%;
+    border: solid #e4e4e4;
+    border-width: 1px 0;
+}
+.menu dt{
+    display: table-cell;
+    padding:0.4rem;
+}
+.menu dd{
+    text-align: right;
+    display: table-cell;
+    padding:0.4rem;
+}
+.menu dd:after{
+    display: inline-block;
+    content: "";
+    width: 1em;
+    font-size: 0.7em;
+}
+
+.menu-name{
+  width: 50%;
+}

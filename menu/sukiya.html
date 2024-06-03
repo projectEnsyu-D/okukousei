@@ -7,7 +7,7 @@
     <script src="../js/common-js/toggle-menu.js"></script>
     <script src="../js/lunch.js"></script>
     <link href="../css/common-css/common.css" rel="stylesheet" />
-    <link href="../css/lunch.css" rel="stylesheet" />
+    <link href="../css/lunch-css/lunch.css" rel="stylesheet" />
 </head>
 <body>
     <header class="header">
@@ -32,7 +32,7 @@
     <main>
       
       <div class = "lunch">
-        <p class="lunch-title">Lunch</p>
+        <p class="lunch-title">学食メニュー</p>
       </div>
 
       <div class = shop-label>
@@ -41,24 +41,421 @@
           <div class="total-label">合計：<input type="text" name="total"></div>
         </form>
       </div>
+      
       <div class = "shop-menu">
-        <form name="menuForm">
-          <input type="checkbox" value="500" onClick="money_total()">
-          テスト１ （500円）
-          <input type="checkbox" value="600" onClick="money_total()">
-          テスト２ （600円）
-          <input type="checkbox" value="700" onClick="money_total()">
-          テスト３ （700円）
-          <input type="checkbox" value="800" onClick="money_total()">
-          テスト４ （800円）
-          <input type="checkbox" value="900" onClick="money_total()">
-          テスト５ （900円）
-        </form>
+        
       </div>
 
-      <div class="return">
-      <a href="../lunch.html">戻る</a><br>
+      <h2 class="menu-type">〜Food〜</h2>
+      <div class="menu">
+        <form name="menuForm">
+          <dl>
+              <dt class="menu-name">牛丼（ミニ）</dt>
+              <dd>¥380</dd>
+              <input type="checkbox" value="380" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">牛丼（並盛）</dt>
+              <dd>¥430</dd>
+              <input type="checkbox" value="430" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">牛丼（中盛）</dt>
+              <dd>¥580</dd>
+              <input type="checkbox" value="580" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">牛丼（大盛）</dt>
+              <dd>¥630</dd>
+              <input type="checkbox" value="630" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">牛丼（特盛）</dt>
+              <dd>¥780</dd>
+              <input type="checkbox" value="780" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">牛丼（メガ）</dt>
+              <dd>¥930</dd>
+              <input type="checkbox" value="930" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">キムチ牛丼（ミニ）</dt>
+              <dd>¥570</dd>
+              <input type="checkbox" value="570" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">キムチ牛丼（並盛）</dt>
+              <dd>¥620</dd>
+              <input type="checkbox" value="620" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">キムチ牛丼（中盛）</dt>
+              <dd>¥770</dd>
+              <input type="checkbox" value="770" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">キムチ牛丼（大盛）</dt>
+              <dd>¥820</dd>
+              <input type="checkbox" value="820" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">キムチ牛丼（特盛）</dt>
+              <dd>¥970</dd>
+              <input type="checkbox" value="970" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">キムチ牛丼（メガ）</dt>
+              <dd>¥1120</dd>
+              <input type="checkbox" value="1120" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">ねぎ玉牛丼（ミニ）</dt>
+              <dd>¥570</dd>
+              <input type="checkbox" value="570" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">ねぎ玉牛丼（並盛）</dt>
+              <dd>¥620</dd>
+              <input type="checkbox" value="620" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">ねぎ玉牛丼（中盛）</dt>
+              <dd>¥770</dd>
+              <input type="checkbox" value="770" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">ねぎ玉牛丼（大盛）</dt>
+              <dd>¥820</dd>
+              <input type="checkbox" value="820" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">ねぎ玉牛丼（特盛）</dt>
+              <dd>¥970</dd>
+              <input type="checkbox" value="970" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">ねぎ玉牛丼（メガ）</dt>
+              <dd>¥1120</dd>
+              <input type="checkbox" value="1120" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろ〜り3種のチーズ牛丼（ミニ）</dt>
+              <dd>¥570</dd>
+              <input type="checkbox" value="570" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろ〜り3種のチーズ牛丼（並盛）</dt>
+              <dd>¥620</dd>
+              <input type="checkbox" value="620" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろ〜り3種のチーズ牛丼（中盛）</dt>
+              <dd>¥770</dd>
+              <input type="checkbox" value="770" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろ〜り3種のチーズ牛丼（大盛）</dt>
+              <dd>¥820</dd>
+              <input type="checkbox" value="820" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろ〜り3種のチーズ牛丼（特盛）</dt>
+              <dd>¥970</dd>
+              <input type="checkbox" value="970" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろ〜り3種のチーズ牛丼（メガ）</dt>
+              <dd>¥1120</dd>
+              <input type="checkbox" value="1120" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おろしポン酢牛丼（ミニ）</dt>
+              <dd>¥530</dd>
+              <input type="checkbox" value="530" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おろしポン酢牛丼（並盛）</dt>
+              <dd>¥580</dd>
+              <input type="checkbox" value="580" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おろしポン酢牛丼（中盛）</dt>
+              <dd>¥730</dd>
+              <input type="checkbox" value="730" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おろしポン酢牛丼（大盛）</dt>
+              <dd>¥780</dd>
+              <input type="checkbox" value="780" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おろしポン酢牛丼（特盛）</dt>
+              <dd>¥930</dd>
+              <input type="checkbox" value="930" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おろしポン酢牛丼（メガ）</dt>
+              <dd>¥1080</dd>
+              <input type="checkbox" value="1080" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">高菜明太マヨ牛丼（ミニ）</dt>
+              <dd>¥570</dd>
+              <input type="checkbox" value="570" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">高菜明太マヨ牛丼（並盛）</dt>
+              <dd>¥620</dd>
+              <input type="checkbox" value="620" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">高菜明太マヨ牛丼（中盛）</dt>
+              <dd>¥770</dd>
+              <input type="checkbox" value="770" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">高菜明太マヨ牛丼（大盛）</dt>
+              <dd>¥820</dd>
+              <input type="checkbox" value="820" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">高菜明太マヨ牛丼（特盛）</dt>
+              <dd>¥970</dd>
+              <input type="checkbox" value="970" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">高菜明太マヨ牛丼（メガ）</dt>
+              <dd>¥1120</dd>
+              <input type="checkbox" value="1120" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">わさび山かけ牛丼（ミニ）</dt>
+              <dd>¥570</dd>
+              <input type="checkbox" value="570" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">わさび山かけ牛丼（並盛）</dt>
+              <dd>¥620</dd>
+              <input type="checkbox" value="620" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">わさび山かけ牛丼（中盛）</dt>
+              <dd>¥770</dd>
+              <input type="checkbox" value="770" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">わさび山かけ牛丼（大盛）</dt>
+              <dd>¥820</dd>
+              <input type="checkbox" value="820" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">わさび山かけ牛丼（特盛）</dt>
+              <dd>¥970</dd>
+              <input type="checkbox" value="970" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">わさび山かけ牛丼（メガ）</dt>
+              <dd>¥1120</dd>
+              <input type="checkbox" value="1120" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">かつおぶしオクラ牛丼（ミニ）</dt>
+              <dd>¥530</dd>
+              <input type="checkbox" value="530" onClick="money_total()">
+          </dl>
+          <dl>
+            <dt class="menu-name">かつおぶしオクラ牛丼（並盛）</dt>
+            <dd>¥580</dd>
+            <input type="checkbox" value="580" onClick="money_total()">
+          </dl>
+          <dl>
+            <dt class="menu-name">かつおぶしオクラ牛丼（中盛）</dt>
+            <dd>¥730</dd>
+            <input type="checkbox" value="730" onClick="money_total()">
+          </dl>
+          <dl>
+            <dt class="menu-name">かつおぶしオクラ牛丼（大盛）</dt>
+            <dd>¥780</dd>
+            <input type="checkbox" value="780" onClick="money_total()">
+          </dl>
+          <dl>
+            <dt class="menu-name">かつおぶしオクラ牛丼（特盛）</dt>
+            <dd>¥930</dd>
+            <input type="checkbox" value="930" onClick="money_total()">
+          </dl>
+          <dl>
+            <dt class="menu-name">かつおぶしオクラ牛丼（メガ）</dt>
+            <dd>¥1080</dd>
+            <input type="checkbox" value="1080" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">牛カレー（ミニ）</dt>
+              <dd>¥650</dd>
+              <input type="checkbox" value="650" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">牛カレー（並盛）</dt>
+              <dd>¥750</dd>
+              <input type="checkbox" value="750" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">牛カレー（大盛）</dt>
+              <dd>¥890</dd>
+              <input type="checkbox" value="890" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">牛カレー（メガ）</dt>
+              <dd>¥1050</dd>
+              <input type="checkbox" value="1050" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">肉２倍牛カレー（ミニ）</dt>
+              <dd>¥870</dd>
+              <input type="checkbox" value="870" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">肉２倍牛カレー（並盛）</dt>
+              <dd>¥970</dd>
+              <input type="checkbox" value="970" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">肉２倍牛カレー（大盛）</dt>
+              <dd>¥1110</dd>
+              <input type="checkbox" value="1110" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">肉２倍牛カレー（メガ）</dt>
+              <dd>¥1270</dd>
+              <input type="checkbox" value="1270" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おんたま牛カレー（ミニ）</dt>
+              <dd>¥760</dd>
+              <input type="checkbox" value="760" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おんたま牛カレー（並盛）</dt>
+              <dd>¥860</dd>
+              <input type="checkbox" value="860" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おんたま牛カレー（大盛）</dt>
+              <dd>¥1000</dd>
+              <input type="checkbox" value="1000" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おんたま牛カレー（メガ）</dt>
+              <dd>¥1160</dd>
+              <input type="checkbox" value="1160" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">チーズ牛カレー（ミニ）</dt>
+              <dd>¥810</dd>
+              <input type="checkbox" value="810" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">チーズ牛カレー（並盛）</dt>
+              <dd>¥910</dd>
+              <input type="checkbox" value="910" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">チーズ牛カレー（大盛）</dt>
+              <dd>¥1050</dd>
+              <input type="checkbox" value="1050" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">チーズ牛カレー（メガ）</dt>
+              <dd>¥1210</dd>
+              <input type="checkbox" value="1210" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">カレー（ミニ）</dt>
+              <dd>¥390</dd>
+              <input type="checkbox" value="390" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">カレー（並盛）</dt>
+              <dd>¥490</dd>
+              <input type="checkbox" value="490" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">カレー（大盛）</dt>
+              <dd>¥630</dd>
+              <input type="checkbox" value="630" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">カレー（メガ）</dt>
+              <dd>¥790</dd>
+              <input type="checkbox" value="790" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おんたまカレー（ミニ）</dt>
+              <dd>¥500</dd>
+              <input type="checkbox" value="500" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おんたまカレー（並盛）</dt>
+              <dd>¥600</dd>
+              <input type="checkbox" value="600" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おんたまカレー（大盛）</dt>
+              <dd>¥740</dd>
+              <input type="checkbox" value="740" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">おんたまカレー（メガ）</dt>
+              <dd>¥900</dd>
+              <input type="checkbox" value="900" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろーりチーズカレー（ミニ）</dt>
+              <dd>¥550</dd>
+              <input type="checkbox" value="550" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろーりチーズカレー（並盛）</dt>
+              <dd>¥650</dd>
+              <input type="checkbox" value="650" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろーりチーズカレー（大盛）</dt>
+              <dd>¥790</dd>
+              <input type="checkbox" value="790" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">とろーりチーズカレー（メガ）</dt>
+              <dd>¥950</dd>
+              <input type="checkbox" value="950" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">チーズおんたまカレー（ミニ）</dt>
+              <dd>¥660</dd>
+              <input type="checkbox" value="660" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">チーズおんたまカレー（並盛）</dt>
+              <dd>¥760</dd>
+              <input type="checkbox" value="760" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">チーズおんたまカレー（大盛）</dt>
+              <dd>¥900</dd>
+              <input type="checkbox" value="900" onClick="money_total()">
+          </dl>
+          <dl>
+              <dt class="menu-name">チーズおんたまカレー（メガ）</dt>
+              <dd>¥1060</dd>
+              <input type="checkbox" value="1060" onClick="money_total()">
+          </dl>
+        </form>
+      </div><!--col-->
+    
+      <div class="wrap">
+        <button onclick="location.href='../lunch.html'" class="button">Return</button>
       </div>
+
     </main>
 
     <footer class="footer">
