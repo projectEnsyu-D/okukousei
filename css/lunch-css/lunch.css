@@ -199,6 +199,12 @@
   flex: 1;
 }
 
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-inner-spin-button { 
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
 button {
   width: 30px;
   height: 30px;
