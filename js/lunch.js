@@ -1,3 +1,7 @@
+window.onload = function(){
+  document.totalForm.total.value = `¥0`;
+}
+
 function money_total() {
   let total = 0;
   const quantities = document.querySelectorAll('input[type="number"]');
