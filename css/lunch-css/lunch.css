@@ -1,33 +1,91 @@
-.lunch {
+  .title {
+    height: 150px;
+    background-color: #141210;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #ffffff;
-    background-color: #24211b;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    text-shadow: 1px 1px 10px #4b2c14;
+  }
+
+  .shop-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  /* 項目を均等に配置 */
+    padding: 0;
+    list-style-type: none;
+    width: 100%;  /* 幅を100%に設定 */
+  }
+  
+  .shop-list ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+  }
+  
+  .shop-list li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;  /* 各項目の周りに余白を追加 */
+    flex: 1 1 30%;  /* 各項目が画面幅に応じて広がる */
+    box-sizing: border-box;
   }
-
-  .lunch-title {
-    font-size: 32px;
-    font-weight: bold;
+  
+  .shop-list img {
+    width: 200px;  /* 画像の幅を200pxに設定 */
+    height: 150px;  /* 画像の高さを150pxに設定 */
+    border-radius: 10px;  /* 画像の角を丸くする */
   }
+  
+  .shop-list p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  .shop-list a {
+    text-decoration: none;
+    color: #333;  /* リンクの色を設定 */
+  }
+  
+  .shop-list a:hover {
+    color: #007BFF;  /* ホバー時のリンクの色を変更 */
+  }
+  
 
-  .shop-label{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 50px;
-    font-weight: bold;
+  .shop-label {
     display: flex;
-    margin-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    height: 70px;  /* 高さを50pxに設定 */
   }
-  .total-label{
-    margin-left:700px;
+  
+  .shop-title {
+    font-size: 2em;
+    font-weight: bold;
   }
-
-  .shop-title{
-    padding-left: 60px;
-    width:400px;
+  
+  .total-label {
+    font-size: 1.2em;
+  }
+  
+  .total-label input[type="text"] {
+    font-size: 1.2em;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 30px;  /* 入力ボックスの高さを30pxに設定 */
   }
 
   .title-label{
@@ -128,4 +186,48 @@
 
 .menu-name{
   width: 50%;
+}
+
+.menu dl {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.menu dd {
+  margin-left: 10px;
+  flex: 1;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+button:active {
+  background-color: #bbb;
+}
+
+input[type="number"] {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 16px;
 }

@@ -30,9 +30,7 @@
     </header>
 
     <main>
-      <div class = "lunch">
-        <p class="lunch-title">学食メニュー</p>
-      </div>
+      <h1 class="title">学食メニュー</h1>
 
       <div class = shop-label>
         <div class="shop-title">愛和食堂</div>
@@ -47,67 +45,93 @@
           <dl>
               <dt class="menu-name">揚げ餃子のオーロラソース</dt>
               <dd>¥500</dd>
-              <input type="checkbox" value="500" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item1')">-</button>
+              <input type="number" id="item1" value="0" min="0" data-price="500" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item1')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">和風ハンバーグ</dt>
               <dd>¥500</dd>
-              <input type="checkbox" value="500" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item2')">-</button>
+              <input type="number" id="item2" value="0" min="0" data-price="500" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item2')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">鶏肉のレモン塩麹玉ねぎだれ</dt>
               <dd>¥500</dd>
-              <input type="checkbox" value="500" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item3')">-</button>
+              <input type="number" id="item3" value="0" min="0" data-price="500" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item3')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">ビーフカツ</dt>
               <dd>¥500</dd>
-              <input type="checkbox" value="500" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item4')">-</button>
+              <input type="number" id="item4" value="0" min="0" data-price="500" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item4')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">豚肉の生姜焼き</dt>
               <dd>¥500</dd>
-              <input type="checkbox" value="500" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item5')">-</button>
+              <input type="number" id="item5" value="0" min="0" data-price="500" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item5')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">銀鱈の照り焼き丼</dt>
               <dd>¥500</dd>
-              <input type="checkbox" value="500" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item6')">-</button>
+              <input type="number" id="item6" value="0" min="0" data-price="500" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item6')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">温玉唐揚げマヨ丼</dt>
               <dd>¥500</dd>
-              <input type="checkbox" value="500" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item7')">-</button>
+              <input type="number" id="item7" value="0" min="0" data-price="500" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item7')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">カツカレー</dt>
               <dd>¥450</dd>
-              <input type="checkbox" value="450" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item8')">-</button>
+              <input type="number" id="item8" value="0" min="0" data-price="450" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item8')">+</button>
           </dl>
           <dl>
-              <dt class="menu-name">梅おろしねばねばそば/dt>
+              <dt class="menu-name">梅おろしねばねばそば</dt>
               <dd>¥400</dd>
-              <input type="checkbox" value="400" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item9')">-</button>
+              <input type="number" id="item9" value="0" min="0" data-price="400" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item9')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">とんこつラーメン</dt>
               <dd>¥400</dd>
-              <input type="checkbox" value="400" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item10')">-</button>
+              <input type="number" id="item10" value="0" min="0" data-price="400" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item10')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">五目ラーメン</dt>
               <dd>¥400</dd>
-              <input type="checkbox" value="400" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item11')">-</button>
+              <input type="number" id="item11" value="0" min="0" data-price="400" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item11')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">台湾ラーメン</dt>
               <dd>¥400</dd>
-              <input type="checkbox" value="400" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item12')">-</button>
+              <input type="number" id="item12" value="0" min="0" data-price="400" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item12')">+</button>
           </dl>
           <dl>
               <dt class="menu-name">冷やし中華</dt>
               <dd>¥400</dd>
-              <input type="checkbox" value="400" onClick="money_total()">
+              <button type="button" onClick="decreaseValue('item13')">-</button>
+              <input type="number" id="item13" value="0" min="0" data-price="400" onInput="money_total()">
+              <button type="button" onClick="increaseValue('item13')">+</button>
           </dl>
         </form>
       </div><!--col-->

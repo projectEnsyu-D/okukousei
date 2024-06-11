@@ -30,431 +30,587 @@
     </header>
 
     <main>
-      
-      <div class = "lunch">
-        <p class="lunch-title">学食メニュー</p>
-      </div>
-
-      <div class = shop-label>
+        <h1 class="title">学食メニュー</h1>
+        <div class = shop-label>
         <div class="shop-title">すき家</div>
         <form name="totalForm">
-          <div class="total-label">合計：<input type="text" name="total"></div>
+            <div class="total-label">合計：<input type="text" name="total"></div>
         </form>
-      </div>
-      
-      <div class = "shop-menu">
+        </div>
         
-      </div>
+        <div class = "shop-menu">
+        
+        </div>
 
-      <h2 class="menu-type">〜Food〜</h2>
-      <div class="menu">
+        <h2 class="menu-type">〜Food〜</h2>
+        <div class="menu">
         <form name="menuForm">
-          <dl>
-              <dt class="menu-name">牛丼（ミニ）</dt>
-              <dd>¥380</dd>
-              <input type="checkbox" value="380" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">牛丼（並盛）</dt>
-              <dd>¥430</dd>
-              <input type="checkbox" value="430" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">牛丼（中盛）</dt>
-              <dd>¥580</dd>
-              <input type="checkbox" value="580" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">牛丼（大盛）</dt>
-              <dd>¥630</dd>
-              <input type="checkbox" value="630" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">牛丼（特盛）</dt>
-              <dd>¥780</dd>
-              <input type="checkbox" value="780" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">牛丼（メガ）</dt>
-              <dd>¥930</dd>
-              <input type="checkbox" value="930" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">キムチ牛丼（ミニ）</dt>
-              <dd>¥570</dd>
-              <input type="checkbox" value="570" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">キムチ牛丼（並盛）</dt>
-              <dd>¥620</dd>
-              <input type="checkbox" value="620" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">キムチ牛丼（中盛）</dt>
-              <dd>¥770</dd>
-              <input type="checkbox" value="770" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">キムチ牛丼（大盛）</dt>
-              <dd>¥820</dd>
-              <input type="checkbox" value="820" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">キムチ牛丼（特盛）</dt>
-              <dd>¥970</dd>
-              <input type="checkbox" value="970" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">キムチ牛丼（メガ）</dt>
-              <dd>¥1120</dd>
-              <input type="checkbox" value="1120" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">ねぎ玉牛丼（ミニ）</dt>
-              <dd>¥570</dd>
-              <input type="checkbox" value="570" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">ねぎ玉牛丼（並盛）</dt>
-              <dd>¥620</dd>
-              <input type="checkbox" value="620" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">ねぎ玉牛丼（中盛）</dt>
-              <dd>¥770</dd>
-              <input type="checkbox" value="770" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">ねぎ玉牛丼（大盛）</dt>
-              <dd>¥820</dd>
-              <input type="checkbox" value="820" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">ねぎ玉牛丼（特盛）</dt>
-              <dd>¥970</dd>
-              <input type="checkbox" value="970" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">ねぎ玉牛丼（メガ）</dt>
-              <dd>¥1120</dd>
-              <input type="checkbox" value="1120" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろ〜り3種のチーズ牛丼（ミニ）</dt>
-              <dd>¥570</dd>
-              <input type="checkbox" value="570" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろ〜り3種のチーズ牛丼（並盛）</dt>
-              <dd>¥620</dd>
-              <input type="checkbox" value="620" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろ〜り3種のチーズ牛丼（中盛）</dt>
-              <dd>¥770</dd>
-              <input type="checkbox" value="770" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろ〜り3種のチーズ牛丼（大盛）</dt>
-              <dd>¥820</dd>
-              <input type="checkbox" value="820" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろ〜り3種のチーズ牛丼（特盛）</dt>
-              <dd>¥970</dd>
-              <input type="checkbox" value="970" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろ〜り3種のチーズ牛丼（メガ）</dt>
-              <dd>¥1120</dd>
-              <input type="checkbox" value="1120" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おろしポン酢牛丼（ミニ）</dt>
-              <dd>¥530</dd>
-              <input type="checkbox" value="530" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おろしポン酢牛丼（並盛）</dt>
-              <dd>¥580</dd>
-              <input type="checkbox" value="580" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おろしポン酢牛丼（中盛）</dt>
-              <dd>¥730</dd>
-              <input type="checkbox" value="730" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おろしポン酢牛丼（大盛）</dt>
-              <dd>¥780</dd>
-              <input type="checkbox" value="780" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おろしポン酢牛丼（特盛）</dt>
-              <dd>¥930</dd>
-              <input type="checkbox" value="930" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おろしポン酢牛丼（メガ）</dt>
-              <dd>¥1080</dd>
-              <input type="checkbox" value="1080" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">高菜明太マヨ牛丼（ミニ）</dt>
-              <dd>¥570</dd>
-              <input type="checkbox" value="570" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">高菜明太マヨ牛丼（並盛）</dt>
-              <dd>¥620</dd>
-              <input type="checkbox" value="620" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">高菜明太マヨ牛丼（中盛）</dt>
-              <dd>¥770</dd>
-              <input type="checkbox" value="770" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">高菜明太マヨ牛丼（大盛）</dt>
-              <dd>¥820</dd>
-              <input type="checkbox" value="820" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">高菜明太マヨ牛丼（特盛）</dt>
-              <dd>¥970</dd>
-              <input type="checkbox" value="970" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">高菜明太マヨ牛丼（メガ）</dt>
-              <dd>¥1120</dd>
-              <input type="checkbox" value="1120" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">わさび山かけ牛丼（ミニ）</dt>
-              <dd>¥570</dd>
-              <input type="checkbox" value="570" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">わさび山かけ牛丼（並盛）</dt>
-              <dd>¥620</dd>
-              <input type="checkbox" value="620" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">わさび山かけ牛丼（中盛）</dt>
-              <dd>¥770</dd>
-              <input type="checkbox" value="770" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">わさび山かけ牛丼（大盛）</dt>
-              <dd>¥820</dd>
-              <input type="checkbox" value="820" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">わさび山かけ牛丼（特盛）</dt>
-              <dd>¥970</dd>
-              <input type="checkbox" value="970" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">わさび山かけ牛丼（メガ）</dt>
-              <dd>¥1120</dd>
-              <input type="checkbox" value="1120" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">かつおぶしオクラ牛丼（ミニ）</dt>
-              <dd>¥530</dd>
-              <input type="checkbox" value="530" onClick="money_total()">
-          </dl>
-          <dl>
-            <dt class="menu-name">かつおぶしオクラ牛丼（並盛）</dt>
-            <dd>¥580</dd>
-            <input type="checkbox" value="580" onClick="money_total()">
-          </dl>
-          <dl>
-            <dt class="menu-name">かつおぶしオクラ牛丼（中盛）</dt>
-            <dd>¥730</dd>
-            <input type="checkbox" value="730" onClick="money_total()">
-          </dl>
-          <dl>
-            <dt class="menu-name">かつおぶしオクラ牛丼（大盛）</dt>
-            <dd>¥780</dd>
-            <input type="checkbox" value="780" onClick="money_total()">
-          </dl>
-          <dl>
-            <dt class="menu-name">かつおぶしオクラ牛丼（特盛）</dt>
-            <dd>¥930</dd>
-            <input type="checkbox" value="930" onClick="money_total()">
-          </dl>
-          <dl>
-            <dt class="menu-name">かつおぶしオクラ牛丼（メガ）</dt>
-            <dd>¥1080</dd>
-            <input type="checkbox" value="1080" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">牛カレー（ミニ）</dt>
-              <dd>¥650</dd>
-              <input type="checkbox" value="650" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">牛カレー（並盛）</dt>
-              <dd>¥750</dd>
-              <input type="checkbox" value="750" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">牛カレー（大盛）</dt>
-              <dd>¥890</dd>
-              <input type="checkbox" value="890" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">牛カレー（メガ）</dt>
-              <dd>¥1050</dd>
-              <input type="checkbox" value="1050" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">肉２倍牛カレー（ミニ）</dt>
-              <dd>¥870</dd>
-              <input type="checkbox" value="870" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">肉２倍牛カレー（並盛）</dt>
-              <dd>¥970</dd>
-              <input type="checkbox" value="970" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">肉２倍牛カレー（大盛）</dt>
-              <dd>¥1110</dd>
-              <input type="checkbox" value="1110" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">肉２倍牛カレー（メガ）</dt>
-              <dd>¥1270</dd>
-              <input type="checkbox" value="1270" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おんたま牛カレー（ミニ）</dt>
-              <dd>¥760</dd>
-              <input type="checkbox" value="760" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おんたま牛カレー（並盛）</dt>
-              <dd>¥860</dd>
-              <input type="checkbox" value="860" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おんたま牛カレー（大盛）</dt>
-              <dd>¥1000</dd>
-              <input type="checkbox" value="1000" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おんたま牛カレー（メガ）</dt>
-              <dd>¥1160</dd>
-              <input type="checkbox" value="1160" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">チーズ牛カレー（ミニ）</dt>
-              <dd>¥810</dd>
-              <input type="checkbox" value="810" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">チーズ牛カレー（並盛）</dt>
-              <dd>¥910</dd>
-              <input type="checkbox" value="910" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">チーズ牛カレー（大盛）</dt>
-              <dd>¥1050</dd>
-              <input type="checkbox" value="1050" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">チーズ牛カレー（メガ）</dt>
-              <dd>¥1210</dd>
-              <input type="checkbox" value="1210" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">カレー（ミニ）</dt>
-              <dd>¥390</dd>
-              <input type="checkbox" value="390" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">カレー（並盛）</dt>
-              <dd>¥490</dd>
-              <input type="checkbox" value="490" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">カレー（大盛）</dt>
-              <dd>¥630</dd>
-              <input type="checkbox" value="630" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">カレー（メガ）</dt>
-              <dd>¥790</dd>
-              <input type="checkbox" value="790" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おんたまカレー（ミニ）</dt>
-              <dd>¥500</dd>
-              <input type="checkbox" value="500" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おんたまカレー（並盛）</dt>
-              <dd>¥600</dd>
-              <input type="checkbox" value="600" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おんたまカレー（大盛）</dt>
-              <dd>¥740</dd>
-              <input type="checkbox" value="740" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">おんたまカレー（メガ）</dt>
-              <dd>¥900</dd>
-              <input type="checkbox" value="900" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろーりチーズカレー（ミニ）</dt>
-              <dd>¥550</dd>
-              <input type="checkbox" value="550" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろーりチーズカレー（並盛）</dt>
-              <dd>¥650</dd>
-              <input type="checkbox" value="650" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろーりチーズカレー（大盛）</dt>
-              <dd>¥790</dd>
-              <input type="checkbox" value="790" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">とろーりチーズカレー（メガ）</dt>
-              <dd>¥950</dd>
-              <input type="checkbox" value="950" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">チーズおんたまカレー（ミニ）</dt>
-              <dd>¥660</dd>
-              <input type="checkbox" value="660" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">チーズおんたまカレー（並盛）</dt>
-              <dd>¥760</dd>
-              <input type="checkbox" value="760" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">チーズおんたまカレー（大盛）</dt>
-              <dd>¥900</dd>
-              <input type="checkbox" value="900" onClick="money_total()">
-          </dl>
-          <dl>
-              <dt class="menu-name">チーズおんたまカレー（メガ）</dt>
-              <dd>¥1060</dd>
-              <input type="checkbox" value="1060" onClick="money_total()">
-          </dl>
+            <dl>
+                <dt class="menu-name">牛丼（ミニ）</dt>
+                <dd>¥380</dd>
+                <button type="button" onClick="decreaseValue('item1')">-</button>
+                <input type="number" id="item1" value="0" min="0" data-price="390" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item1')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">牛丼（並盛）</dt>
+                <dd>¥430</dd>
+                <button type="button" onClick="decreaseValue('item2')">-</button>
+                <input type="number" id="item2" value="0" min="0" data-price="430" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item2')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">牛丼（中盛）</dt>
+                <dd>¥580</dd>
+                <button type="button" onClick="decreaseValue('item3')">-</button>
+                <input type="number" id="item3" value="0" min="0" data-price="580" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item3')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">牛丼（大盛）</dt>
+                <dd>¥630</dd>
+                <button type="button" onClick="decreaseValue('item4')">-</button>
+                <input type="number" id="item4" value="0" min="0" data-price="630" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item4')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">牛丼（特盛）</dt>
+                <dd>¥780</dd>
+                <button type="button" onClick="decreaseValue('item5')">-</button>
+                <input type="number" id="item5" value="0" min="0" data-price="780" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item5')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">牛丼（メガ）</dt>
+                <dd>¥930</dd>
+                <button type="button" onClick="decreaseValue('item6')">-</button>
+                <input type="number" id="item6" value="0" min="0" data-price="930" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item6')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">キムチ牛丼（ミニ）</dt>
+                <dd>¥570</dd>
+                <button type="button" onClick="decreaseValue('item7')">-</button>
+                <input type="number" id="item7" value="0" min="0" data-price="570" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item7')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">キムチ牛丼（並盛）</dt>
+                <dd>¥620</dd>
+                <button type="button" onClick="decreaseValue('item8')">-</button>
+                <input type="number" id="item8" value="0" min="0" data-price="620" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item8')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">キムチ牛丼（中盛）</dt>
+                <dd>¥770</dd>
+                <button type="button" onClick="decreaseValue('item9')">-</button>
+                <input type="number" id="item9" value="0" min="0" data-price="770" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item9')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">キムチ牛丼（大盛）</dt>
+                <dd>¥820</dd>
+                <button type="button" onClick="decreaseValue('item10')">-</button>
+                <input type="number" id="item10" value="0" min="0" data-price="820" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item10')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">キムチ牛丼（特盛）</dt>
+                <dd>¥970</dd>
+                <button type="button" onClick="decreaseValue('item11')">-</button>
+                <input type="number" id="item11" value="0" min="0" data-price="970" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item11')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">キムチ牛丼（メガ）</dt>
+                <dd>¥1120</dd>
+                <button type="button" onClick="decreaseValue('item12')">-</button>
+                <input type="number" id="item12" value="0" min="0" data-price="1120" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item12')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">ねぎ玉牛丼（ミニ）</dt>
+                <dd>¥570</dd>
+                <button type="button" onClick="decreaseValue('item13')">-</button>
+                <input type="number" id="item13" value="0" min="0" data-price="570" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item13')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">ねぎ玉牛丼（並盛）</dt>
+                <dd>¥620</dd>
+                <button type="button" onClick="decreaseValue('item14')">-</button>
+                <input type="number" id="item14" value="0" min="0" data-price="620" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item14')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">ねぎ玉牛丼（中盛）</dt>
+                <dd>¥770</dd>
+                <button type="button" onClick="decreaseValue('item15')">-</button>
+                <input type="number" id="item15" value="0" min="0" data-price="770" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item15')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">ねぎ玉牛丼（大盛）</dt>
+                <dd>¥820</dd>
+                <button type="button" onClick="decreaseValue('item16')">-</button>
+                <input type="number" id="item16" value="0" min="0" data-price="820" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item16')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">ねぎ玉牛丼（特盛）</dt>
+                <dd>¥970</dd>
+                <button type="button" onClick="decreaseValue('item17')">-</button>
+                <input type="number" id="item17" value="0" min="0" data-price="970" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item17')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">ねぎ玉牛丼（メガ）</dt>
+                <dd>¥1120</dd>
+                <button type="button" onClick="decreaseValue('item18')">-</button>
+                <input type="number" id="item18" value="0" min="0" data-price="1120" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item18')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろ〜り3種のチーズ牛丼（ミニ）</dt>
+                <dd>¥570</dd>
+                <button type="button" onClick="decreaseValue('item19')">-</button>
+                <input type="number" id="item19" value="0" min="0" data-price="570" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item19')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろ〜り3種のチーズ牛丼（並盛）</dt>
+                <dd>¥620</dd>
+                <button type="button" onClick="decreaseValue('item20')">-</button>
+                <input type="number" id="item20" value="0" min="0" data-price="620" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item20')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろ〜り3種のチーズ牛丼（中盛）</dt>
+                <dd>¥770</dd>
+                <button type="button" onClick="decreaseValue('item21')">-</button>
+                <input type="number" id="item21" value="0" min="0" data-price="770" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item21')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろ〜り3種のチーズ牛丼（大盛）</dt>
+                <dd>¥820</dd>
+                <button type="button" onClick="decreaseValue('item22')">-</button>
+                <input type="number" id="item22" value="0" min="0" data-price="820" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item22')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろ〜り3種のチーズ牛丼（特盛）</dt>
+                <dd>¥970</dd>
+                <button type="button" onClick="decreaseValue('item23')">-</button>
+                <input type="number" id="item23" value="0" min="0" data-price="970" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item23')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろ〜り3種のチーズ牛丼（メガ）</dt>
+                <dd>¥1120</dd>
+                <button type="button" onClick="decreaseValue('item24')">-</button>
+                <input type="number" id="item24" value="0" min="0" data-price="1120" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item24')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おろしポン酢牛丼（ミニ）</dt>
+                <dd>¥530</dd>
+                <button type="button" onClick="decreaseValue('item25')">-</button>
+                <input type="number" id="item25" value="0" min="0" data-price="530" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item25')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おろしポン酢牛丼（並盛）</dt>
+                <dd>¥580</dd>
+                <button type="button" onClick="decreaseValue('item26')">-</button>
+                <input type="number" id="item26" value="0" min="0" data-price="580" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item26')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おろしポン酢牛丼（中盛）</dt>
+                <dd>¥730</dd>
+                <button type="button" onClick="decreaseValue('item27')">-</button>
+                <input type="number" id="item27" value="0" min="0" data-price="730" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item27')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おろしポン酢牛丼（大盛）</dt>
+                <dd>¥780</dd>
+                <button type="button" onClick="decreaseValue('item28')">-</button>
+                <input type="number" id="item28" value="0" min="0" data-price="780" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item28')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おろしポン酢牛丼（特盛）</dt>
+                <dd>¥930</dd>
+                <button type="button" onClick="decreaseValue('item29')">-</button>
+                <input type="number" id="item29" value="0" min="0" data-price="930" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item29')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おろしポン酢牛丼（メガ）</dt>
+                <dd>¥1080</dd>
+                <button type="button" onClick="decreaseValue('item30')">-</button>
+                <input type="number" id="item30" value="0" min="0" data-price="1080" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item30')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">高菜明太マヨ牛丼（ミニ）</dt>
+                <dd>¥570</dd>
+                <button type="button" onClick="decreaseValue('item31')">-</button>
+                <input type="number" id="item31" value="0" min="0" data-price="570" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item31')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">高菜明太マヨ牛丼（並盛）</dt>
+                <dd>¥620</dd>
+                <button type="button" onClick="decreaseValue('item32')">-</button>
+                <input type="number" id="item32" value="0" min="0" data-price="620" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item32')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">高菜明太マヨ牛丼（中盛）</dt>
+                <dd>¥770</dd>
+                <button type="button" onClick="decreaseValue('item33')">-</button>
+                <input type="number" id="item33" value="0" min="0" data-price="770" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item33')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">高菜明太マヨ牛丼（大盛）</dt>
+                <dd>¥820</dd>
+                <button type="button" onClick="decreaseValue('item34')">-</button>
+                <input type="number" id="item34" value="0" min="0" data-price="820" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item34')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">高菜明太マヨ牛丼（特盛）</dt>
+                <dd>¥970</dd>
+                <button type="button" onClick="decreaseValue('item35')">-</button>
+                <input type="number" id="item35" value="0" min="0" data-price="970" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item35')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">高菜明太マヨ牛丼（メガ）</dt>
+                <dd>¥1120</dd>
+                <button type="button" onClick="decreaseValue('item36')">-</button>
+                <input type="number" id="item36" value="0" min="0" data-price="1120" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item36')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">わさび山かけ牛丼（ミニ）</dt>
+                <dd>¥570</dd>
+                <button type="button" onClick="decreaseValue('item37')">-</button>
+                <input type="number" id="item37" value="0" min="0" data-price="570" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item37')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">わさび山かけ牛丼（並盛）</dt>
+                <dd>¥620</dd>
+                <button type="button" onClick="decreaseValue('item38')">-</button>
+                <input type="number" id="item38" value="0" min="0" data-price="620" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item38')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">わさび山かけ牛丼（中盛）</dt>
+                <dd>¥770</dd>
+                <button type="button" onClick="decreaseValue('item39')">-</button>
+                <input type="number" id="item39" value="0" min="0" data-price="770" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item39')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">わさび山かけ牛丼（大盛）</dt>
+                <dd>¥820</dd>
+                <button type="button" onClick="decreaseValue('item40')">-</button>
+                <input type="number" id="item40" value="0" min="0" data-price="820" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item40')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">わさび山かけ牛丼（特盛）</dt>
+                <dd>¥970</dd>
+                <button type="button" onClick="decreaseValue('item41')">-</button>
+                <input type="number" id="item41" value="0" min="0" data-price="970" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item41')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">わさび山かけ牛丼（メガ）</dt>
+                <dd>¥1120</dd>
+                <button type="button" onClick="decreaseValue('item42')">-</button>
+                <input type="number" id="item42" value="0" min="0" data-price="1120" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item42')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">かつおぶしオクラ牛丼（ミニ）</dt>
+                <dd>¥530</dd>
+                <button type="button" onClick="decreaseValue('item43')">-</button>
+                <input type="number" id="item43" value="0" min="0" data-price="530" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item43')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">かつおぶしオクラ牛丼（並盛）</dt>
+                <dd>¥580</dd>
+                <button type="button" onClick="decreaseValue('item44')">-</button>
+                <input type="number" id="item44" value="0" min="0" data-price="580" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item44')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">かつおぶしオクラ牛丼（中盛）</dt>
+                <dd>¥730</dd>
+                <button type="button" onClick="decreaseValue('item45')">-</button>
+                <input type="number" id="item45" value="0" min="0" data-price="730" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item45')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">かつおぶしオクラ牛丼（大盛）</dt>
+                <dd>¥780</dd>
+                <button type="button" onClick="decreaseValue('item46')">-</button>
+                <input type="number" id="item46" value="0" min="0" data-price="780" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item46')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">かつおぶしオクラ牛丼（特盛）</dt>
+                <dd>¥930</dd>
+                <button type="button" onClick="decreaseValue('item47')">-</button>
+                <input type="number" id="item47" value="0" min="0" data-price="930" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item47')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">かつおぶしオクラ牛丼（メガ）</dt>
+                <dd>¥1080</dd>
+                <button type="button" onClick="decreaseValue('item48')">-</button>
+                <input type="number" id="item48" value="0" min="0" data-price="1080" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item48')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">牛カレー（ミニ）</dt>
+                <dd>¥650</dd>
+                <button type="button" onClick="decreaseValue('item49')">-</button>
+                <input type="number" id="item49" value="0" min="0" data-price="650" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item49')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">牛カレー（並盛）</dt>
+                <dd>¥750</dd>
+                <button type="button" onClick="decreaseValue('item50')">-</button>
+                <input type="number" id="item50" value="0" min="0" data-price="750" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item50')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">牛カレー（大盛）</dt>
+                <dd>¥890</dd>
+                <button type="button" onClick="decreaseValue('item51')">-</button>
+                <input type="number" id="item51" value="0" min="0" data-price="890" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item51')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">牛カレー（メガ）</dt>
+                <dd>¥1050</dd>
+                <button type="button" onClick="decreaseValue('item52')">-</button>
+                <input type="number" id="item52" value="0" min="0" data-price="1050" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item52')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">肉２倍牛カレー（ミニ）</dt>
+                <dd>¥870</dd>
+                <button type="button" onClick="decreaseValue('item53')">-</button>
+                <input type="number" id="item53" value="0" min="0" data-price="870" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item53')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">肉２倍牛カレー（並盛）</dt>
+                <dd>¥970</dd>
+                <button type="button" onClick="decreaseValue('item54')">-</button>
+                <input type="number" id="item54" value="0" min="0" data-price="970" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item54')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">肉２倍牛カレー（大盛）</dt>
+                <dd>¥1110</dd>
+                <button type="button" onClick="decreaseValue('item55')">-</button>
+                <input type="number" id="item55" value="0" min="0" data-price="1110" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item55')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">肉２倍牛カレー（メガ）</dt>
+                <dd>¥1270</dd>
+                <button type="button" onClick="decreaseValue('item56')">-</button>
+                <input type="number" id="item56" value="0" min="0" data-price="1270" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item56')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おんたま牛カレー（ミニ）</dt>
+                <dd>¥760</dd>
+                <button type="button" onClick="decreaseValue('item57')">-</button>
+                <input type="number" id="item57" value="0" min="0" data-price="760" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item57')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おんたま牛カレー（並盛）</dt>
+                <dd>¥860</dd>
+                <button type="button" onClick="decreaseValue('item58')">-</button>
+                <input type="number" id="item58" value="0" min="0" data-price="860" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item58')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おんたま牛カレー（大盛）</dt>
+                <dd>¥1000</dd>
+                <button type="button" onClick="decreaseValue('item59')">-</button>
+                <input type="number" id="item59" value="0" min="0" data-price="1000" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item59')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おんたま牛カレー（メガ）</dt>
+                <dd>¥1160</dd>
+                <button type="button" onClick="decreaseValue('item60')">-</button>
+                <input type="number" id="item60" value="0" min="0" data-price="1160" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item60')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">チーズ牛カレー（ミニ）</dt>
+                <dd>¥810</dd>
+                <button type="button" onClick="decreaseValue('item61')">-</button>
+                <input type="number" id="item61" value="0" min="0" data-price="810" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item61')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">チーズ牛カレー（並盛）</dt>
+                <dd>¥910</dd>
+                <button type="button" onClick="decreaseValue('item62')">-</button>
+                <input type="number" id="item62" value="0" min="0" data-price="910" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item62')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">チーズ牛カレー（大盛）</dt>
+                <dd>¥1050</dd>
+                <button type="button" onClick="decreaseValue('item63')">-</button>
+                <input type="number" id="item63" value="0" min="0" data-price="1050" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item63')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">チーズ牛カレー（メガ）</dt>
+                <dd>¥1210</dd>
+                <button type="button" onClick="decreaseValue('item64')">-</button>
+                <input type="number" id="item64" value="0" min="0" data-price="1210" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item64')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">カレー（ミニ）</dt>
+                <dd>¥390</dd>
+                <button type="button" onClick="decreaseValue('item65')">-</button>
+                <input type="number" id="item65" value="0" min="0" data-price="390" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item65')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">カレー（並盛）</dt>
+                <dd>¥490</dd>
+                <button type="button" onClick="decreaseValue('item66')">-</button>
+                <input type="number" id="item66" value="0" min="0" data-price="490" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item66')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">カレー（大盛）</dt>
+                <dd>¥630</dd>
+                <button type="button" onClick="decreaseValue('item67')">-</button>
+                <input type="number" id="item67" value="0" min="0" data-price="630" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item67')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">カレー（メガ）</dt>
+                <dd>¥790</dd>
+                <button type="button" onClick="decreaseValue('item68')">-</button>
+                <input type="number" id="item68" value="0" min="0" data-price="790" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item68')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おんたまカレー（ミニ）</dt>
+                <dd>¥500</dd>
+                <button type="button" onClick="decreaseValue('item69')">-</button>
+                <input type="number" id="item69" value="0" min="0" data-price="500" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item69')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おんたまカレー（並盛）</dt>
+                <dd>¥600</dd>
+                <button type="button" onClick="decreaseValue('item70')">-</button>
+                <input type="number" id="item70" value="0" min="0" data-price="600" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item70')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おんたまカレー（大盛）</dt>
+                <dd>¥740</dd>
+                <button type="button" onClick="decreaseValue('item71')">-</button>
+                <input type="number" id="item71" value="0" min="0" data-price="740" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item71')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">おんたまカレー（メガ）</dt>
+                <dd>¥900</dd>
+                <button type="button" onClick="decreaseValue('item72')">-</button>
+                <input type="number" id="item72" value="0" min="0" data-price="900" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item72')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろーりチーズカレー（ミニ）</dt>
+                <dd>¥550</dd>
+                <button type="button" onClick="decreaseValue('item73')">-</button>
+                <input type="number" id="item73" value="0" min="0" data-price="550" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item73')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろーりチーズカレー（並盛）</dt>
+                <dd>¥650</dd>
+                <button type="button" onClick="decreaseValue('item74')">-</button>
+                <input type="number" id="item74" value="0" min="0" data-price="650" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item74')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろーりチーズカレー（大盛）</dt>
+                <dd>¥790</dd>
+                <button type="button" onClick="decreaseValue('item75')">-</button>
+                <input type="number" id="item75" value="0" min="0" data-price="790" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item75')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">とろーりチーズカレー（メガ）</dt>
+                <dd>¥950</dd>
+                <button type="button" onClick="decreaseValue('item76')">-</button>
+                <input type="number" id="item76" value="0" min="0" data-price="950" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item76')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">チーズおんたまカレー（ミニ）</dt>
+                <dd>¥660</dd>
+                <button type="button" onClick="decreaseValue('item77')">-</button>
+                <input type="number" id="item77" value="0" min="0" data-price="660" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item77')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">チーズおんたまカレー（並盛）</dt>
+                <dd>¥760</dd>
+                <button type="button" onClick="decreaseValue('item78')">-</button>
+                <input type="number" id="item78" value="0" min="0" data-price="760" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item78')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">チーズおんたまカレー（大盛）</dt>
+                <dd>¥900</dd>
+                <button type="button" onClick="decreaseValue('item79')">-</button>
+                <input type="number" id="item79" value="0" min="0" data-price="900" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item79')">+</button>
+            </dl>
+            <dl>
+                <dt class="menu-name">チーズおんたまカレー（メガ）</dt>
+                <dd>¥1060</dd>
+                <button type="button" onClick="decreaseValue('item80')">-</button>
+                <input type="number" id="item80" value="0" min="0" data-price="1060" onInput="money_total()">
+                <button type="button" onClick="increaseValue('item80')">+</button>
+            </dl>
         </form>
-      </div><!--col-->
+        </div><!--col-->
     
-      <div class="wrap">
-        <button onclick="location.href='../lunch.html'" class="button">Return</button>
-      </div>
+        <div class="wrap">
+            <button onclick="location.href='../lunch.html'" class="button">Return</button>
+        </div>
 
     </main>
 
